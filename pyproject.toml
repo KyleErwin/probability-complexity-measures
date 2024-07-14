@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "prob-measures"
+version = "0.1.0"
+description = ""
+authors = ["Kyle Erwin <kyle.erwin@ibm.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+scipy = "^1.13.1"
+setuptools = "^70.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
